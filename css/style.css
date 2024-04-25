@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #8BC34A; /* Light green color */
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #558B2F; /* Darker green for hover effect */
+}
+
+.btn-search {
+    color: #fff;
+    background-color: #007bff; /* blue color */
+    border-color: #007bff; /* blue color */
+}
+
+.btn-search:hover {
+    color: #fff;
+    background-color: #0056b3; /* darker shade of blue */
+    border-color: #0056b3; /* darker shade of blue */
+}
+
